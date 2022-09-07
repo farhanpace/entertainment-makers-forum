@@ -20,17 +20,17 @@
 
 <body>
     <section id="hero"
-        class="bg-emPurple h-screen relative flex flex-col items-center justify-between pb-3  bg-[url('/img/EMC-banner.jpg')] bg-blend-multiply  bg-left-bottom bg-no-repeat ">
-        <div class="container mx-auto my-auto px-32">
+        class="bg-emPurple h-screen relative flex flex-col items-center justify-between pb-3  bg-[url('./img/section-two-bg.png')] bg-blend-multiply  bg-left-bottom bg-no-repeat bg-cover">
+        <div class="container mx-auto my-auto px-6 md:px-32">
             <p class="text-white text-2xl">Hilton Riyadh Hotel & Residences</p>
             <h1
                 class="text-white text-left text-4xl md:text-8xl mx-auto leading-1 md:leading-6rem uppercase my-6 font-bold border-l-8 pl-5">
                 Entertainment Makers <br> Forum
             </h1>
             <div class="text-white text-2xl flex">
-                <p class="bg-emTeal rounded-sm p-5 w-fit mr-2">27th</p>
-                <p class="bg-emTeal rounded-sm p-5 w-fit mr-2">28th</p>
-                <p class="bg-emTeal rounded-sm p-5 w-fit">September</p>
+                <p class="bg-emTeal rounded-sm p-3 md:p-5 w-fit mr-2 text-sm md:text-xl">27th</p>
+                <p class="bg-emTeal rounded-sm p-3 md:p-5 w-fit mr-2 text-sm md:text-xl">28th</p>
+                <p class="bg-emTeal rounded-sm p-3 md:p-5 w-fit text-sm md:text-xl">September</p>
             </div>
             <a href=""
                 class="px-6 pt-3 pb-4 mt-12 rounded-sm text-white bg-bhButtonBlue text-center block max-w-max bg-emOrange">Register
@@ -40,10 +40,10 @@
     </section>
 
     <section id="intro" class="bg-gray-900 relative flex flex-col items-center justify-between pt-24 pb-36">
-        <div class="container mx-auto pt-14 my-auto px-32">
+        <div class="container mx-auto pt-14 my-auto px-6 md:px-32">
             <div class="border-8 border-emTeal p-3">
                 <h1
-                    class="text-white text-left text-4xl md:text-6xl mx-auto uppercase font-bold bg-emOrange md:mt-[-60px] w-fit p-3 float-left">
+                    class="rounded-sm text-white text-left text-4xl md:text-6xl mx-auto uppercase font-bold bg-emOrange mt-[-50px] md:mt-[-60px] w-fit p-3 float-left">
                     Introduction
                 </h1>
                 <p class="text-white my-16">Entertainment Makers Forum brings investors, entertainment industry
@@ -55,251 +55,331 @@
 
 
     <section id="schedule"
-        class="bg-white relative items-center justify-between pb-3 pt-9 bg-[url('/img/section-two-bg.png')] bg-blend-multiply bg-left-bottom bg-cover bg-no-repeat">
-        <div class="container mx-auto my-auto px-32">
+        class="bg-white relative items-center justify-between pb-3 pt-9 bg-[url('./img/section-two-bg.png')] bg-blend-multiply bg-left-bottom bg-cover bg-no-repeat">
+        <div class="container mx-auto my-auto px-6 md:px-32">
             <h1
-            class="text-white text-left text-4xl md:text-6xl mx-auto uppercase font-bold bg-emOrange md:mt-[-90px] w-fit p-4 float-left">
-            Forum <br> Schedule
-        </h1>
+                class="rounded-sm text-white text-left text-4xl md:text-6xl mx-auto uppercase font-bold bg-emOrange mt-[-90px] w-fit p-4 float-left">
+                Forum <br> Schedule
+            </h1>
         </div>
-        <div class="container mx-auto pt-14 my-auto px-32">
+        <div class="container mx-auto pt-14 my-auto px6 md:px-32">
             <div class="p-3">
-                <div class="mb-9 mt-24 border-8 border-emTeal">
+                <div class="mb-9 md:mt-24 border-8 border-emTeal rounded-sm">
                     <ul
                         class="hidden text-sm font-medium text-center text-gray-500 rounded-lg divide-x divide-gray-200 shadow sm:flex">
                         <li class="w-full cursor-pointer" id="1day">
-                            <a 
-                                class="inline-block p-4 w-full text-gray-900 bg-emTeal text-2xl hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 active focus:outline-none"
+                            <a id="day1bg" class="inline-block p-4 w-full text-white hover:text-white focus:text-white bg-emTeal text-2xl hover:bg-gray-800 focus:ring-4 focus:ring-blue-300 active focus:outline-none"
                                 aria-current="page">DAY 1</a>
                         </li>
                         <li class="w-full cursor-pointer" id="2day">
-                            <a 
-                                class="inline-block p-4 w-full bg-emTeal hover:text-gray-700 hover:bg-gray-50 text-2xl focus:ring-4 focus:ring-blue-300 focus:outline-none">DAY 2</a>
+                            <a
+                            id="day2bg" class="inline-block p-4 w-full bg-emTeal text-white hover:text-white focus:text-white hover:bg-gray-800 text-2xl focus:ring-4 focus:ring-blue-300 focus:outline-none">DAY
+                                2</a>
                         </li>
                     </ul>
-                    <div class="" id="day1">
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                11:30AM
+                    <div class="bg-gray-800" id="day1">
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    11:30AM
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    12:30PM - 1:30PM
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    11:30AM
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    1:00pm - 2:30 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    3:00 pm - 4:30 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    5:00pm - 5:45 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    6:00 pm - 6:45 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    7:00 pm - 8:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    8:00 pm - 9:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    10:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                12:30PM - 1:30PM
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                11:30AM
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                    <div class="bg-gray-900 hidden" id="day2">
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    11:30AM
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                1:00pm - 2:30 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                3:00 pm - 4:30 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    12:30PM - 1:30PM
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                5:00pm - 5:45 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                6:00 pm - 6:45 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    11:30AM
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                7:00 pm - 8:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                8:00 pm - 9:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    1:00pm - 2:30 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                10:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="hidden" id="day2">
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                11:30AM
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    3:00 pm - 4:30 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                12:30PM - 1:30PM
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                11:30AM
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    5:00pm - 5:45 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                1:00pm - 2:30 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                3:00 pm - 4:30 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    6:00 pm - 6:45 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                5:00pm - 5:45 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                6:00 pm - 6:45 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    7:00 pm - 8:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                7:00 pm - 8:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                8:00 pm - 9:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    8:00 pm - 9:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block">
-                        <div class="flex items-center justify-between">
-                            <div class="bg-gray-800 h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-1/4">
-                                10:00 pm
-                            </div>
-                            <div class="bg-gray-900 h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
-                                <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                        <div class="block">
+                            <div class="flex items-center justify-between">
+                                <div
+                                    class="bg-gray-900 h-100 md:h-32 flex flex-col items-center justify-center  my-auto p-6 text-white w-full md:w-1/4">
+                                    10:00 pm
+                                </div>
+                                <div
+                                    class="bg-gray-800 h-100 md:h-32 flex flex-col justify-center p-6 text-white border-b border-gray-800">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit, rem eos eum
+                                        reiciendis natus laboriosam reprehenderit. Deleniti fuga dolor rem perspiciatis
+                                        aut itaque, repudiandae mollitia vel illo voluptatum et!</p>
+                                    <a href="/" class="text-emTeal block float-left mt-4">Register</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -308,10 +388,10 @@
 
 
     <section id="booking" class="bg-gray-900 relative flex flex-col items-center justify-between pt-24 pb-36">
-        <div class="container mx-auto pt-14 my-auto px-32">
+        <div class="container mx-auto pt-14 my-auto px-6 md:px-32">
             <div class="border-8 border-emTeal p-3">
                 <h1
-                    class="text-white text-left text-4xl md:text-3xl mx-auto uppercase font-bold bg-emOrange md:mt-[-40px] w-fit p-3 float-left">
+                    class="rounded-sm text-white text-left text-4xl md:text-3xl mx-auto uppercase font-bold bg-emOrange mt-[-60px] md:mt-[-40px] w-fit p-3 float-left">
                     Book Your Spot Now!
                 </h1>
                 <p class="text-white my-16">Entertainment Makers Forum brings investors, entertainment industry
@@ -319,13 +399,12 @@
                     that represent a huge part of the entertainment industry.
                 </p>
                 <div class="float-right mt-0">
-                    <a href=""
-                    class="px-6 pt-3 pb-4  rounded-sm text-white text-center bg-emOrange">Register
-                    Now</a>
+                    <a href="" class="px-6 pt-3 pb-4  rounded-sm text-white text-center bg-emOrange">Register
+                        Now</a>
                 </div>
-                    
+
             </div>
-            
+
         </div>
     </section>
 
@@ -342,14 +421,18 @@
                 arrows: false,
             });
 
-            $("#2day").click(function(){
+            $("#2day").click(function () {
                 $("#day2").removeClass("hidden");
                 $("#day1").addClass("hidden");
-              });
-            $("#1day").click(function(){
+                $("#day2bg").addClass("text-white, bg-gray-800");
+                $("#day1bg").removeClass("text-white, bg-gray-800");
+            });
+            $("#1day").click(function () {
                 $("#day2").addClass("hidden");
                 $("#day1").removeClass("hidden");
-              });
+                $("#day1bg").addClass("text-white, bg-gray-800");
+                $("#day2bg").removeClass("text-white, bg-gray-800");
+            });
         });
     </script>
 
